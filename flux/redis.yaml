@@ -4,6 +4,7 @@ metadata:
   name: redis
   namespace: default
 spec:
+  helmVersion: v3
   releaseName: redis
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com
